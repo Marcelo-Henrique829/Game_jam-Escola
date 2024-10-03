@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+#region colisão e permissão de movimento
+
+
 var _hspd = sign(hspd) // retornando um valor positivo ou negativo de hspd
 var _vspd = sign(vspd)// retornando um valor positivo ou negativo de vspd
 
@@ -26,3 +30,5 @@ repeat(abs(vspd))
 		y+=_vspd
 	}
 }
+
+#endregion
