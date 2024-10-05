@@ -15,18 +15,17 @@ function scr_move(){
 #region movimentos irados do balacobaco
 
  
-	direcao = point_direction(0,0,(_rigth - _left),(_down - _up)) //descobrindo a direção em que o jogador está apertando
-
+		hspd = lengthdir_x(spd,direcao);
+		vspd = lengthdir_y(spd,direcao);
 
 	if(_left !=0 or _rigth !=0 or _up !=0 or _down !=0)//verficando se ele está apertando alguma se sim o sistema deixa ele andar se não ele fica parado
 	{
-		hspd = lengthdir_x(spd,direcao);
-		vspd = lengthdir_y(spd,direcao);
+		spd = 5
+		direcao = point_direction(0,0,(_rigth - _left),(_down - _up)) //descobrindo a direção em que o jogador está apertando	
 	}
 	else
 	{
-		hspd = lengthdir_x(spd*0,direcao);
-		vspd = lengthdir_y(spd*0,direcao);
+		spd  = 0
 	}
 
 	if(_dash and can_dash)
@@ -39,7 +38,7 @@ function scr_move(){
 		
 	}
 
-	
+	if(_left and _rigth or _down and _up) spd = 0
 	
 	
 #endregion

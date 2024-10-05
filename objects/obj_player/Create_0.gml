@@ -7,6 +7,9 @@ spd=5;//velocidade
 max_spd =10;//velocidade máxima
 direcao = 0;//direção em que o jogador está apertando 
 
+window_set_cursor(cr_none) //sumindo com o ponteiro original do mouse
+
+mouse_anim = 1
 
 //eu vou usar muito essa variável
 state = scr_move; //começando com o esquema de movimentação

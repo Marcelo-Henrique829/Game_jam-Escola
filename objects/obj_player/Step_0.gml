@@ -6,7 +6,9 @@
 
 state() //executando a função do momento
 
-show_debug_message(alarm[0])
+show_debug_message(direcao )
 
 
 
+if(mouse_check_button(mb_left)) mouse_anim = 1
+else mouse_anim = 2 
