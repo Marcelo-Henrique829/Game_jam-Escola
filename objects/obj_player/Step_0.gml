@@ -6,9 +6,9 @@
 
 state() //executando a função do momento
 
-show_debug_message(direcao )
-
-
+#region animação de clicar do ponteiro do mouse
 
 if(mouse_check_button(mb_left)) mouse_anim = 1
 else mouse_anim = 2 
+
+#endregion

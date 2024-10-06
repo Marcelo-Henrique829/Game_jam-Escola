@@ -15,6 +15,8 @@ function scr_move(){
 #region movimentos irados do balacobaco
 
  
+	sprite_index = spr_player
+ 
 		hspd = lengthdir_x(spd,direcao);
 		vspd = lengthdir_y(spd,direcao);
 
@@ -51,10 +53,13 @@ function scr_dash()
 	hspd = lengthdir_x(dash_spd,direcao)
 	vspd = lengthdir_y(dash_spd,direcao)
 	dash_time++
+	sprite_index = spr_player_dash
+	
 	
 	if(dash_time>=10)
 	{
 		state=scr_move;
 		dash_time = 0;
+		//image_speed = 0;
 	}
 }
