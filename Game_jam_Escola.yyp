@@ -32,7 +32,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Game_jam_Escola",
   "resources":[
@@ -42,6 +42,7 @@
     {"id":{"name":"obj_tubo_de_caneta","path":"objects/obj_tubo_de_caneta/obj_tubo_de_caneta.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"neymar_th_goat","path":"sprites/neymar_th_goat/neymar_th_goat.yy",},},
     {"id":{"name":"spr_arma_improviso","path":"sprites/spr_arma_improviso/spr_arma_improviso.yy",},},
     {"id":{"name":"spr_bullet_destroy","path":"sprites/spr_bullet_destroy/spr_bullet_destroy.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
