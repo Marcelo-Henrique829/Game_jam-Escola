@@ -13,5 +13,7 @@ else mouse_anim = 2
 
 #endregion
 
-
-usando_arma()
+if(instance_exists(obj_lapis))
+{
+	usando_arma()
+}
