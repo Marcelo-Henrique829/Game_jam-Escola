@@ -17,3 +17,5 @@ if(instance_exists(obj_lapis))
 {
 	usando_arma()
 }
+
+//eu tô ficando loouco

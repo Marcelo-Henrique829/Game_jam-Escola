@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Game_jam_Escola",
   "resources":[
@@ -58,6 +58,7 @@
     {"id":{"name":"spr_player_dah_2","path":"sprites/spr_player_dah_2/spr_player_dah_2.yy",},},
     {"id":{"name":"spr_player_dash","path":"sprites/spr_player_dash/spr_player_dash.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
