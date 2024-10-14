@@ -30,3 +30,17 @@ window_set_cursor(cr_none) //sumindo com o ponteiro original do mouse
 mouse_anim = 1
 
 state = scr_move; //começando com o esquema de movimentação
+
+
+
+//por algum motivo a porra desse código só funciona assim. Não pergunte o porque apenas agradeça que funciona
+usando_arma = function()
+{
+	var _dir =  point_direction(x,y,mouse_x,mouse_y)
+	var _x = x + lengthdir_x(sprite_width,_dir)
+	var _y = y + lengthdir_y(sprite_height,_dir)
+	
+	obj_lapis.x = _x
+	obj_lapis.y = _y
+	obj_lapis.image_angle = _dir
+}

@@ -12,3 +12,6 @@ if(mouse_check_button(mb_left)) mouse_anim = 1
 else mouse_anim = 2 
 
 #endregion
+
+
+usando_arma()
