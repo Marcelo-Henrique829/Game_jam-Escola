@@ -6,10 +6,7 @@ if keyboard_check_pressed(vk_enter){
 		
 	}
 	if (index == 2){
-		
-	}
-	if (index == 3){
-		game_end() // fecha o jogo caso o jogador pressione enter na ultima opção(sair)*
+				game_end() // fecha o jogo caso o jogador pressione enter na ultima opção(sair)*
 	}
 }
 
