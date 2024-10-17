@@ -3,7 +3,7 @@
 
 
 
-if(place_meeting(x,y,obj_player)) usando = true
+if(global.usando_arma!=1) instance_destroy()
 
 
 

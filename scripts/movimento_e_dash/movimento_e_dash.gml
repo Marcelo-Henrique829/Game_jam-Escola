@@ -1,5 +1,28 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
+
+function scr_anim()
+{
+
+	switch(direcao)
+	{
+		case 0:
+			sprite_index = spr_player_iddle_lado_direito
+		break;
+		
+		case 180:
+			sprite_index = spr_player_iddle_lado_esquerdo
+		break;
+		case 270:
+			sprite_index = spr_player_frente_iddlle
+		break;
+	}
+	
+}
+
+
+
 function scr_move(){
 	
 #region inputs vulgo controles
@@ -15,7 +38,7 @@ function scr_move(){
 #region movimentos irados do balacobaco
 
  
-	sprite_index = spr_player
+	
  
 		hspd = lengthdir_x(spd,direcao);
 		vspd = lengthdir_y(spd,direcao);
@@ -53,7 +76,7 @@ function scr_dash()
 	hspd = lengthdir_x(dash_spd,direcao)
 	vspd = lengthdir_y(dash_spd,direcao)
 	dash_time++
-	sprite_index = spr_player_dash
+
 	
 	
 	if(dash_time>=10)

@@ -7,3 +7,5 @@ function seguindo_apontando(){
 	image_angle =  point_direction(x,y,mouse_x,mouse_y)
 	
 }
+
+global.usando_arma = 1;

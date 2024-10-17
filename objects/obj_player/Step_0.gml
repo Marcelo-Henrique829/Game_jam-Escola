@@ -2,9 +2,11 @@
 // You can write your code in this editor
 
 
-
+scr_anim()
+troca_arma()
 
 state() //executando a função do momento
+
 
 #region animação de clicar do ponteiro do mouse
 
@@ -18,4 +20,7 @@ if(instance_exists(obj_lapis))
 	usando_arma()
 }
 
+
+show_debug_message(direcao)
 //eu tô ficando loouco
+

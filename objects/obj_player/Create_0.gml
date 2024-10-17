@@ -9,9 +9,10 @@ vspd = 0;//velocidade vertical
 spd=5;//velocidade
 max_spd =10;//velocidade máxima
 direcao = 0;//direção em que o jogador está apertando
+anim = 0
 
 #endregion
-
+mask_index = spr_player_colisao
 
 #region variáveis para o dash
 
@@ -37,10 +38,35 @@ state = scr_move; //começando com o esquema de movimentação
 usando_arma = function()
 {
 	var _dir =  point_direction(x,y,mouse_x,mouse_y)
-	var _x = x + lengthdir_x(sprite_width,_dir)
-	var _y = y + lengthdir_y(sprite_height,_dir)
+	var _x = x + lengthdir_x(sprite_width-20,_dir)
+	var _y = y + lengthdir_y(sprite_height-20,_dir)
 	
 	obj_lapis.x = _x
 	obj_lapis.y = _y
 	obj_lapis.image_angle = _dir
 }
+
+troca_arma = function()
+{
+	if(keyboard_check(ord("Q")))
+	{
+		global.usando_arma = 1
+	}
+	
+	if(keyboard_check(ord("E")))
+	{
+		global.usando_arma = 2
+	}
+	
+	if(global.usando_arma == 1 and !instance_exists(obj_tubo_de_caneta))
+	{
+		instance_create_layer(x,y,"armas",obj_tubo_de_caneta)
+	}
+	
+	if(global.usando_arma == 2 and !instance_exists(obj_lapis))
+	{
+		instance_create_layer(x,y,"armas",obj_lapis)
+	}
+}
+
+
