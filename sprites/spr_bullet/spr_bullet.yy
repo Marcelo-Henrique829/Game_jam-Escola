@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"armas",
-    "path":"folders/Sprites/armas.yy",
+    "name":"armas_the_fato",
+    "path":"folders/Sprites/armas/armas_the_fato.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

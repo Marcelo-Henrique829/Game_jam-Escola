@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_arma_improviso",
-    "path":"sprites/spr_arma_improviso/spr_arma_improviso.yy",
+    "name":"spr_caneta",
+    "path":"sprites/spr_caneta/spr_caneta.yy",
   },
   "spriteMaskId":null,
   "visible":true,

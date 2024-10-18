@@ -52,7 +52,7 @@ function scr_move(){
 	{
 		spd  = 0
 	}
-
+#region ativando o estado de dash
 	if(_dash and can_dash)
 	{
 		can_dash = false
@@ -62,6 +62,9 @@ function scr_move(){
 		state = scr_dash
 		
 	}
+#endregion
+
+
 
 	if(_left and _rigth or _down and _up) spd = 0
 	
@@ -86,3 +89,5 @@ function scr_dash()
 		//image_speed = 0;
 	}
 }
+
+

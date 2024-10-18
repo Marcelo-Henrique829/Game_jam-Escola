@@ -23,7 +23,10 @@ dash_cooldown = room_speed //tempo que o jogador deve esperar para realizar outr
 can_dash = true;//variável que determina se o jogador pode ou não usar o dash
 
 #endregion
-  
+ 
+ 
+ image_xscale = .5
+ image_yscale = .5
   
 
 window_set_cursor(cr_none) //sumindo com o ponteiro original do mouse
@@ -66,6 +69,16 @@ troca_arma = function()
 	if(global.usando_arma == 2 and !instance_exists(obj_lapis))
 	{
 		instance_create_layer(x,y,"armas",obj_lapis)
+	}
+	
+	
+	if(global.usando_arma == 2 and instance_exists(obj_ataque))
+	{
+		spd = 0
+	}
+	else
+	{
+		//spd = 5
 	}
 }
 

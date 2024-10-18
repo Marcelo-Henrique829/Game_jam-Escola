@@ -11,10 +11,15 @@ if(global.usando_arma!=1) instance_destroy()
 
 if(mouse_check_button_pressed(mb_left))
 {
+
+	
 	if(!instance_exists(obj_ataque))
 	{
 		instance_create_layer(x + lengthdir_x(sprite_width-10,_dir),y + lengthdir_y(sprite_height+20,_dir),layer,obj_ataque)
+		
+	}
+	else
+	{
 	}
 }
 
- // essa putaria que eu fiz sever para criar a instancia "ataque" à frente do objeto e não dentro do objeto
