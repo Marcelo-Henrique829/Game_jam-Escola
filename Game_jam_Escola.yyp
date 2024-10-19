@@ -59,6 +59,7 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_caneta","path":"sprites/spr_caneta/spr_caneta.yy",},},
     {"id":{"name":"spr_lapis","path":"sprites/spr_lapis/spr_lapis.yy",},},
+    {"id":{"name":"spr_m","path":"sprites/spr_m/spr_m.yy",},},
     {"id":{"name":"spr_mcaco","path":"sprites/spr_mcaco/spr_mcaco.yy",},},
     {"id":{"name":"spr_mira","path":"sprites/spr_mira/spr_mira.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
