@@ -1,3 +1,4 @@
+#region variaveis e informações necessarias para desenhar o menu
 draw_set_font(Font1);
 
 var mx = device_mouse_x_to_gui(0);
@@ -9,7 +10,9 @@ var gui_vert = display_get_gui_height();//variavel que guarda a altura total da 
 var x1 = gui_horiz / 2; //variavel que guarda o valor da largura pela metade, usada na localização do x dos textos
 var y1 = gui_vert / 2; //variavel que guarda o valor da altura pela metade, usada na localização do y dos textos
 
+#endregion
 
+#region desenhando o menu
 //laço de repetição usado para escrever os textos e atualizar a situação dele(se está selecionado ou não)
 for(var i=0; i < op_max; i++){
 	draw_set_halign(fa_center); //fazer os textos se alinharem horizontalmente ao centro da linha dele(igual no word)
@@ -20,7 +23,25 @@ for(var i=0; i < op_max; i++){
 		draw_set_color(c_yellow); //troca a cor da opção selecionada
 		esc[i] = lerp(esc[i],1.4,0.15); // aumenta o tamanho do texto quando selecionado
 		rot = lerp(rot,15,0.15); // adiciona a rotação do texto quando selecionado
-			
+		
+		
+			if (mouse_check_button_pressed(mb_left)){//checando se o mouse esta clicando em algua das opções
+ 
+	switch opcoes[i] // Switch pra checar qual das opções está selecionada pelo mouse (esse aqui é realmente só pelo mouse)
+	{
+		case opcoes[0]://Novo Jogo
+		room_goto_next()
+		break;
+		
+		case opcoes[1]://controles
+		break;
+		
+		case opcoes[2]://Sair
+		game_end();
+		break;
+	}
+}
+		
 	}
 	
 	else { //para caso a opção não esteja mais selecionada
@@ -29,8 +50,12 @@ for(var i=0; i < op_max; i++){
 		rot = 0 // define a rotação do texto para 0 quando não selecionado
 	}
 	
+	
 	draw_text_transformed(x1, y1 + (dist*i), opcoes[i],esc[i],esc[i],rot); //escreve o texto
 
 
 }
 draw_set_font(-1) 
+
+#endregion
+

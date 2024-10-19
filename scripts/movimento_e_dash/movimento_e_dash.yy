@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"movimento_e_dash",
   "isCompatibility":false,
   "isDnD":false,

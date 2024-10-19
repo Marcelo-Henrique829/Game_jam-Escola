@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Game_jam_Escola",
   "resources":[
@@ -81,8 +81,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Level","path":"rooms/Level/Level.yy",},},
     {"roomId":{"name":"Menu_Inicial","path":"rooms/Menu_Inicial/Menu_Inicial.yy",},},
+    {"roomId":{"name":"Level","path":"rooms/Level/Level.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
