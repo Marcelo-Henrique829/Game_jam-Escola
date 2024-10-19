@@ -70,13 +70,13 @@ function scr_move(){
 
 	if(_left and _rigth or _down and _up) spd = 0 //SE O JOGADOR ESTIVER APERTANDO MAIS DE UM BOTÃO ELE PARA DE SE MOVER
 	
-	
+}
 #endregion
 
-}
+
 	
 	
-function scr_move_colision(_obj_name)
+function scr_move_colision(_objetos = [])
 {
 	var _hspd = sign(hspd) // retornando um valor positivo ou negativo de hspd
 	var _vspd = sign(vspd)// retornando um valor positivo ou negativo de vspd
@@ -84,7 +84,7 @@ function scr_move_colision(_obj_name)
 
 repeat(abs(hspd))
 {
-	if(place_meeting(x+_hspd,y,_obj_name))
+	if(place_meeting(x+_hspd,y,_objetos))
 	{
 		hspd = 0
 	}
@@ -95,7 +95,7 @@ repeat(abs(hspd))
 }
 repeat(abs(vspd))
 {
-	if(place_meeting(x,y+_vspd,_obj_name))
+	if(place_meeting(x,y+_vspd,_objetos))
 	{
 		vspd = 0
 	}
