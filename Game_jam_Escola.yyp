@@ -43,6 +43,7 @@
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_ataque","path":"objects/obj_ataque/obj_ataque.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"Obj_camera","path":"objects/Obj_camera/Obj_camera.yy",},},
     {"id":{"name":"obj_lapis","path":"objects/obj_lapis/obj_lapis.yy",},},
     {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
