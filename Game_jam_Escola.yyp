@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Game_jam_Escola",
   "resources":[
@@ -63,6 +63,7 @@
     {"id":{"name":"spr_m","path":"sprites/spr_m/spr_m.yy",},},
     {"id":{"name":"spr_mcaco","path":"sprites/spr_mcaco/spr_mcaco.yy",},},
     {"id":{"name":"spr_mira","path":"sprites/spr_mira/spr_mira.yy",},},
+    {"id":{"name":"spr_neymar","path":"sprites/spr_neymar/spr_neymar.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_player_colisao","path":"sprites/spr_player_colisao/spr_player_colisao.yy",},},
     {"id":{"name":"spr_player_dah_2","path":"sprites/spr_player_dah_2/spr_player_dah_2.yy",},},
