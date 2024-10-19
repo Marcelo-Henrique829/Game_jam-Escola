@@ -25,6 +25,8 @@ function scr_anim()
 
 function scr_move(){
 	
+	
+	
 #region inputs vulgo controles
 
 	var _left = keyboard_check(ord("A"));
@@ -66,11 +68,42 @@ function scr_move(){
 
 
 
-	if(_left and _rigth or _down and _up) spd = 0
+	if(_left and _rigth or _down and _up) spd = 0 //SE O JOGADOR ESTIVER APERTANDO MAIS DE UM BOTÃO ELE PARA DE SE MOVER
 	
 	
 #endregion
 
+}
+	
+	
+function scr_move_colision(_obj_name)
+{
+	var _hspd = sign(hspd) // retornando um valor positivo ou negativo de hspd
+	var _vspd = sign(vspd)// retornando um valor positivo ou negativo de vspd
+
+
+repeat(abs(hspd))
+{
+	if(place_meeting(x+_hspd,y,_obj_name))
+	{
+		hspd = 0
+	}
+	else
+	{
+		x+=_hspd
+	}
+}
+repeat(abs(vspd))
+{
+	if(place_meeting(x,y+_vspd,_obj_name))
+	{
+		vspd = 0
+	}
+	else
+	{
+		y+=_vspd
+	}
+}
 }
 
 
