@@ -1,8 +1,8 @@
-#region variaveis e informações necessarias para desenhar o menu
+ #region variaveis e informações necessarias para desenhar o menu
 draw_set_font(Font1);
 
-var mx = device_mouse_x_to_gui(0);
-var my = device_mouse_y_to_gui(0);
+var mx = mouse_x;
+var my = mouse_y;
 
 var dist = 50; // variavel que guarda a distancia de um texto para o outro
 var gui_horiz = display_get_gui_width(); //variavel que guarda a largura total da tela

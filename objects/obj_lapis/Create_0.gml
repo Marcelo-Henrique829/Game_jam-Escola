@@ -3,5 +3,7 @@
 
 image_xscale = 1
 image_yscale = 1
-arma = id
+//arma = id
 dir = 0;
+coldown = room_speed*.4
+pode_atacar = true

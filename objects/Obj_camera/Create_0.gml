@@ -1,6 +1,6 @@
-resolution_width = 1600 // resolução padrão
-resolution_height = 900 // resolução padrão
-resolution_scale = 2; //escala da resolução da camera
+resolution_width = 1024 // resolução padrão
+resolution_height = 576 // resolução padrão
+resolution_scale = 1.5; //escala da resolução da camera
 global.view_width = resolution_width / resolution_scale; // definindo o tamanho do width da camera
 global.view_height = resolution_height / resolution_scale; //definindo o tamanho do height da camera
 alvo = obj_player; //definindo o alvo da camera

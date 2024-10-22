@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object8",
-  "eventList":[],
+  "%Name":"objeto_boss_provisorio",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object8",
+  "name":"objeto_boss_provisorio",
   "overriddenProperties":[],
   "parent":{
     "name":"player",
