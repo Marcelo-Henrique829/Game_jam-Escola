@@ -2,8 +2,19 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_iddle_boss(){
 	
+	var _player_direction  = point_direction(x,y,obj_player.x,obj_player.y)
+	var _distancia = point_distance(x,y,obj_player.x,obj_player.y)
 	sprite_index = spr_mcaco
-	state_name = "parado"
+	
+	if(_distancia>= 100)
+	{
+		x += lengthdir_x(spd,_player_direction)
+		y += lengthdir_y(spd,_player_direction)
+	}
+	
+	show_debug_message(_distancia)
+	state_name = "movendo"
+	
 }
 
 function scr_boss_hit(){

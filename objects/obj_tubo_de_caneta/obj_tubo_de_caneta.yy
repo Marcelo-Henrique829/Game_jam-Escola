@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"armas",
-    "path":"folders/Objects/armas.yy",
+    "path":"folders/Objects/player/armas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

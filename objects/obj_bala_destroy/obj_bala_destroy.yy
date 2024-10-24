@@ -9,8 +9,8 @@
   "name":"obj_bala_destroy",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/Objects/player.yy",
+    "name":"armas",
+    "path":"folders/Objects/player/armas.yy",
   },
   "parentObjectId":null,
   "persistent":false,
