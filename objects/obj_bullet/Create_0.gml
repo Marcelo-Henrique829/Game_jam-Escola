@@ -5,10 +5,10 @@
  image_xscale = .5
  image_yscale = .5
  
- colisores = [obj_parede,objeto_boss_provisorio]
+ colisores = [obj_parede,obj_boss_provisorio]
  
  
- dano = [objeto_boss_provisorio];
+ dano = [obj_boss_provisorio];
  
 direction = point_direction(x,y,mouse_x,mouse_y) //falando que a direção em que o projétil vai é a posição do mouse
 

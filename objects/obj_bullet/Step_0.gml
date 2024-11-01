@@ -9,4 +9,5 @@ if(place_meeting(x,y,colisores))
 {
 	speed = 0
 	instance_create_layer(x,y,"bullet",obj_bala_destroy)
+	instance_destroy()
 }

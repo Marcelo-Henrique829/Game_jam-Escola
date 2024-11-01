@@ -12,29 +12,38 @@ direcao = 0;//direção em que o jogador está apertando
 anim = 0
 
 #endregion
-mask_index = spr_player_colisao
 
 #region variáveis para o dash
 
 dash_distance = 10; //tempo maximo/distancia que o dash percorre
 dash_time = 0; //tempo de duração do dash
 dash_spd = 20;//velocidado dash
-dash_cooldown = room_speed //tempo que o jogador deve esperar para realizar outro dash
+dash_cooldown = room_speed*0.5 //tempo que o jogador deve esperar para realizar outro dash
 can_dash = true;//variável que determina se o jogador pode ou não usar o dash
 
 #endregion
  
+ #region defindo sua escala quando criado
  
- image_xscale = .5
- image_yscale = .5
+	 image_xscale = .5
+	 image_yscale = .5
+	 
+ #endregion
   
 
 window_set_cursor(cr_none) //sumindo com o ponteiro original do mouse
  
 mouse_anim = 1
 
-state = scr_move; //começando com o esquema de movimentação
+state = "movendo"; //começando com o esquema de movimentação
 
+
+#region variáveis do estado "hit"
+
+	hit_cooldown = 20
+	hit_time = hit_cooldown
+	causadores_de_dano = [obj_boss_provisorio,obj_ataque_boss,obj_bullet_boss]
+#endregion
 
 
 //por algum motivo a porra desse código só funciona assim. Não pergunte o porque apenas agradeça que funciona
