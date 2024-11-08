@@ -5,6 +5,11 @@ player_direction  = point_direction(x,y,obj_player.x,obj_player.y)
 distancia = point_distance(x,y,obj_player.x,obj_player.y)
 show_debug_message(tempo)
 
+if(obj_barra_de_vida.life<=0)
+{
+	state = "morte"
+}
+
 switch(state)
 {
 	case "movendo":
@@ -63,6 +68,17 @@ switch(state)
 		}
 	
 	
+	break;
+	
+	case "morte":
+	{
+		sprite_index = spr_boss_destroy
+		if(image_index>= image_number -1)
+		{
+			instance_destroy()
+		}
+			
+	}
 	break;
 }
 

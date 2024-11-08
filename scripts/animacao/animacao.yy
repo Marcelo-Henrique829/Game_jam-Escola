@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"movimento_e_dash",
+  "%Name":"animacao",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"movimento_e_dash",
+  "name":"animacao",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

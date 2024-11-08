@@ -2,8 +2,8 @@
 // You can write your code in this editor
  
  
- image_xscale = .5
- image_yscale = .5
+ image_xscale = 1
+ image_yscale = 1
  
  colisores = [obj_parede,obj_boss_provisorio]
  

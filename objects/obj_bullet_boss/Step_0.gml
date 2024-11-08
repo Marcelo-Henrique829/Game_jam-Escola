@@ -8,6 +8,7 @@
 if(place_meeting(x,y,obj_player))
 {
 	obj_player.state = "hit"
+	obj_life_bar.life++
 	anim = 2
 	speed = 0
 	

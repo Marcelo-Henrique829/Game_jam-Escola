@@ -12,3 +12,6 @@ tempo = 0;
 
 perto_cooldown = game_get_speed(gamespeed_fps)*.5
 can_punch = 0;
+
+image_xscale = 2;
+image_yscale = 2;

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-scr_anim()//O script e que lida com as animações
+scr_anim()//O script e que lida com as animações/
 troca_arma()//código que faz trocar de arma
 
 #region animação de clicar do ponteiro do mouse
@@ -38,7 +38,7 @@ switch(state)
 
 		if(_left !=0 or _rigth !=0 or _up !=0 or _down !=0)//verficando se ele está apertando alguma se sim o sistema deixa ele andar se não ele fica parado
 		{
-			spd = 5
+			spd = max_spd
 			direcao = point_direction(0,0,(_rigth - _left),(_down - _up)) //descobrindo a direção em que o jogador está apertando	
 		}
 		else
@@ -67,7 +67,11 @@ switch(state)
 			
 		#region ativando o estado de hit
 		
-			if(place_meeting(x,y,causadores_de_dano)) state = "hit";
+			if(place_meeting(x,y,causadores_de_dano))
+			{
+				obj_life_bar.life++
+				state = "hit";
+			}
 			
 		#endregion
 	}

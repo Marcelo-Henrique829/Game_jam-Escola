@@ -4,9 +4,15 @@
 var _player_direction = point_direction(x,y,obj_player.x,obj_player.y)
 var _distancia = point_distance(x,y,obj_player.x,obj_player.y)
 
-
-x = obj_boss_provisorio.x
-y = obj_boss_provisorio.y
+if(instance_exists(obj_boss_provisorio))
+{
+	x = obj_boss_provisorio.x
+	y = obj_boss_provisorio.y
+}
+else
+{
+	instance_destroy()
+}
 
 image_angle = lerp(image_angle,_player_direction,0.08)
 

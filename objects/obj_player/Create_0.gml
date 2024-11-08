@@ -1,4 +1,4 @@
-/// @description iniciando variáveis
+ /// @description iniciando variáveis
 // You can write your code in this editor
 
 
@@ -25,8 +25,8 @@ can_dash = true;//variável que determina se o jogador pode ou não usar o dash
  
  #region defindo sua escala quando criado
  
-	 image_xscale = .5
-	 image_yscale = .5
+	 image_xscale = 1
+	 image_yscale = 1
 	 
  #endregion
   
