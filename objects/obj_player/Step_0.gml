@@ -69,7 +69,7 @@ switch(state)
 		
 			if(place_meeting(x,y,causadores_de_dano))
 			{
-				obj_life_bar.life++
+				obj_life_bar.life+=global.boss_sword
 				state = "hit";
 			}
 			
@@ -98,10 +98,22 @@ switch(state)
 	
 	case "hit":
 	{
+		if(instance_exists(obj_boss_provisorio))
+		{
+			var _direction = point_direction(x,y,obj_boss_provisorio.x,obj_boss_provisorio.y)
+			hspd += lengthdir_x(2,_direction+180)
+			vspd += lengthdir_y(2,_direction+180)
+		}
+		else
+		{
+			hspd = 0
+			vspd = 0
+		}
+		
 		sprite_index = spr_player_iddle_hit
-		hspd =0
-		vspd =0
+		
 		hit_time--
+		
 		if(hit_time<=0)
 		{
 			state = "movendo";

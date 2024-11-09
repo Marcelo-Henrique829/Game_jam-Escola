@@ -16,7 +16,7 @@ else
 
 image_angle = lerp(image_angle,_player_direction,0.08)
 
-if(pode_meter_chumbo == true and _distancia >=100)
+if(pode_meter_chumbo == true and _distancia >=200)
 {
 		
 			var _inst_1  = instance_create_layer(x,y,"bullet",obj_bullet_boss)

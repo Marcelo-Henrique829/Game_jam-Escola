@@ -8,7 +8,7 @@
 if(place_meeting(x,y,obj_player))
 {
 	obj_player.state = "hit"
-	obj_life_bar.life++
+	obj_life_bar.life+=global.boss_bullet
 	anim = 2
 	speed = 0
 	

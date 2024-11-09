@@ -17,7 +17,7 @@ switch(state)
 	
 			sprite_index = spr_mcaco
 	
-			if(distancia>= 100)
+			if(distancia>= 200)
 			{
 				x += lengthdir_x(spd,player_direction)
 				y += lengthdir_y(spd,player_direction)
@@ -26,13 +26,8 @@ switch(state)
 			else
 			{
 				
-				tempo--
-				if(tempo<=0) 
-				{
 					state = "ataque_perto"
 					can_punch = 0;
-				}
-				
 			}
 			
 		
@@ -42,7 +37,7 @@ switch(state)
 	case "hit":
 	{
 		sprite_index = spr_boss_hit
-		tempo--
+
 		if(image_index >= image_number - 1)
 		{
 			state = "movendo";
@@ -52,14 +47,11 @@ switch(state)
 
 	case "ataque_perto":
 		{
-			
-			if(!instance_exists(obj_ataque_boss))
-			{
-				instance_create_layer(x+lengthdir_x(sprite_width-20,player_direction),y+lengthdir_y(sprite_height-20,player_direction),"bullet",obj_ataque_boss)
-				obj_ataque_boss.image_angle = player_direction - 90	
-			}
-			
-			tempo = perto_cooldown
+				if(!instance_exists(obj_ataque_boss))
+				{
+					instance_create_layer(x+lengthdir_x(sprite_width-20,player_direction),y+lengthdir_y(sprite_height-20,player_direction),"bullet",obj_ataque_boss)
+					obj_ataque_boss.image_angle = player_direction - 90	
+				}
 							
 			if(obj_ataque_boss.image_index >= image_number-1) 
 			{
@@ -72,6 +64,7 @@ switch(state)
 	
 	case "morte":
 	{
+		instance_destroy(obj_arma)
 		sprite_index = spr_boss_destroy
 		if(image_index>= image_number -1)
 		{
