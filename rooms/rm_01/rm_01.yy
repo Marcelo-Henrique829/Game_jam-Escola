@@ -32,7 +32,7 @@
           1,112,-40,-2147483648,1,82,-52,-2147483648,1,112,-40,-2147483648,1,82,-52,-2147483648,1,112,-40,-2147483648,
           1,82,-52,-2147483648,1,112,-40,-2147483648,1,82,-52,-2147483648,1,112,-40,-2147483648,1,82,-52,-2147483648,
           1,112,-40,-2147483648,1,82,-52,-2147483648,1,112,-40,-2147483648,1,194,-52,270,1,272,-382,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tls_parede_roubada","path":"tilesets/tls_parede_roubada/tls_parede_roubada.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_237FE51D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_237FE51D","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":26.0,"scaleY":0.46875,"x":544.0,"y":529.0,},
         {"$GMRInstance":"","%Name":"inst_6D79D07C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D79D07C","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":192.0,},
@@ -148,7 +148,7 @@
           83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,
           83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,83,82,
           83,
-        ],},"tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],},"tilesetId":{"name":"tls_chao_roubado","path":"tilesets/tls_chao_roubado/tls_chao_roubado.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_01",

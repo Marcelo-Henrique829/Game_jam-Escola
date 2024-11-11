@@ -16,6 +16,14 @@ if(place_meeting(x,y,obj_player))
 	instance_destroy()
 }
 
+
+if(place_meeting(x,y,colisores))
+{
+	instance_create_layer(x,y,"bullet",obj_bala_destroy)
+	instance_destroy()
+}
+
+
 switch(anim)
 {
 	case 1:

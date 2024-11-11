@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_parede",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_objetos_de_cenario",
+  "eventList":[],
   "managed":true,
-  "name":"obj_parede",
+  "name":"obj_objetos_de_cenario",
   "overriddenProperties":[],
   "parent":{
     "name":"Cenario",

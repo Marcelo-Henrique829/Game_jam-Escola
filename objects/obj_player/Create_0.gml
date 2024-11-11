@@ -17,7 +17,7 @@ anim = 0
 
 dash_distance = 10; //tempo maximo/distancia que o dash percorre
 dash_time = 0; //tempo de duração do dash
-dash_spd = 20;//velocidado dash
+dash_spd = 30;//velocidado dash
 dash_cooldown = room_speed*0.5 //tempo que o jogador deve esperar para realizar outro dash
 can_dash = true;//variável que determina se o jogador pode ou não usar o dash
 
@@ -25,8 +25,8 @@ can_dash = true;//variável que determina se o jogador pode ou não usar o dash
  
  #region defindo sua escala quando criado
  
-	 image_xscale = 1
-	 image_yscale = 1
+	 image_xscale = .9
+	 image_yscale = .9
 	 
  #endregion
   

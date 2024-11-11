@@ -19,12 +19,15 @@ switch(state)
 	
 			if(distancia>= 200)
 			{
-				x += lengthdir_x(spd,player_direction)
-				y += lengthdir_y(spd,player_direction)
+				hspd = lengthdir_x(spd,player_direction)
+				vspd = lengthdir_y(spd,player_direction)
+				
 				tempo = perto_cooldown;
 			}
 			else
 			{
+				hspd =0;
+				vspd =0;
 				
 					state = "ataque_perto"
 					can_punch = 0;

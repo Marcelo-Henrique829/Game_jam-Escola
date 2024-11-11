@@ -4,7 +4,7 @@
 
 #region colisão e permissão de movimento
 
-scr_move_colision([obj_parede])
+scr_move_colision([obj_parede,obj_objetos_de_cenario])
 
 
 #endregion
