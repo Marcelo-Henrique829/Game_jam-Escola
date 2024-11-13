@@ -2,9 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 #region DANO DAS ARMAS
 
-global.player_bullet = 10;
-global.boss_bullet = 1;
-global.boss_sword = 0.5;
+global.player_bullet = 90;
+global.boss_bullet = 0;
+global.boss_sword = 0;
 global.player_sword = 3;
 
 

@@ -50,6 +50,7 @@
   "name":"Game_jam_Escola",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"obj_arma_2","path":"objects/obj_arma_2/obj_arma_2.yy",},},
     {"id":{"name":"obj_arma","path":"objects/obj_arma/obj_arma.yy",},},
     {"id":{"name":"obj_ataque_boss","path":"objects/obj_ataque_boss/obj_ataque_boss.yy",},},
     {"id":{"name":"obj_ataque","path":"objects/obj_ataque/obj_ataque.yy",},},
@@ -121,9 +122,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
     {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
     {"roomId":{"name":"Menu_Inicial","path":"rooms/Menu_Inicial/Menu_Inicial.yy",},},
-    {"roomId":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

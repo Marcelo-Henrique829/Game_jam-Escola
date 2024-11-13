@@ -97,4 +97,4 @@ global.chave_2 = 0;
 global.chave_3 = 0;
 #endregion
 
-global.luz = 0;
+global.luz = 1;

@@ -1,6 +1,32 @@
     /// @description Insert description here
 // You can write your code in this editor
 
+
+
+
+if(obj_barra_de_vida.life<=obj_barra_de_vida.life_max/2 and pode_segunda_fase)
+{
+	pode_segunda_fase = 0;
+	segunda_fase = 1;
+	state = "segunda_fase"
+}
+
+
+
+
+
+
+if(state!="morte")
+{
+	usando_arma_1()
+	
+	if(segunda_fase)
+	{
+		usando_arma_2()
+	}
+}
+
+
 player_direction  = point_direction(x,y,obj_player.x,obj_player.y)
 distancia = point_distance(x,y,obj_player.x,obj_player.y)
 show_debug_message(tempo)
@@ -41,9 +67,12 @@ switch(state)
 	{
 		sprite_index = spr_boss_hit
 
+
 		if(image_index >= image_number - 1)
 		{
-			state = "movendo";
+			if(!segunda_fase) state = "movendo";
+			else state = "segunda_fase"
+
 		}
 	}
 	break;
@@ -67,7 +96,11 @@ switch(state)
 	
 	case "morte":
 	{
-		instance_destroy(obj_arma)
+
+			instance_destroy(obj_arma)
+			instance_destroy(obj_arma_2)
+
+		
 		sprite_index = spr_boss_destroy
 		if(image_index>= image_number -1)
 		{
@@ -76,6 +109,17 @@ switch(state)
 			
 	}
 	break;
+	
+	
+	case "segunda_fase":
+	{
+		sprite_index = spr_mcaco
+		
+		hspd = 0;
+		vspd = 0;
+		
+	}
+	break
 }
 
 
