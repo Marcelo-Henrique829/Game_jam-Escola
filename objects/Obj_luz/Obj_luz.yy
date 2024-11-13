@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_parede",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_luz",
+  "eventList":[],
   "managed":true,
-  "name":"obj_parede",
+  "name":"Obj_luz",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cenario",
-    "path":"folders/Objects/Cenario.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_parede",
-    "path":"sprites/spr_parede/spr_parede.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

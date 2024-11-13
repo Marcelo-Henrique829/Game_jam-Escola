@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Game_jam_Escola",
   "resources":[
@@ -56,8 +56,10 @@
     {"id":{"name":"obj_bullet_boss","path":"objects/obj_bullet_boss/obj_bullet_boss.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"Obj_camera","path":"objects/Obj_camera/Obj_camera.yy",},},
+    {"id":{"name":"Obj_iluminacao","path":"objects/Obj_iluminacao/Obj_iluminacao.yy",},},
     {"id":{"name":"obj_lapis","path":"objects/obj_lapis/obj_lapis.yy",},},
     {"id":{"name":"obj_life_bar","path":"objects/obj_life_bar/obj_life_bar.yy",},},
+    {"id":{"name":"Obj_luz","path":"objects/Obj_luz/Obj_luz.yy",},},
     {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
     {"id":{"name":"obj_objetos_de_cenario","path":"objects/obj_objetos_de_cenario/obj_objetos_de_cenario.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
@@ -111,9 +113,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
     {"roomId":{"name":"Menu_Inicial","path":"rooms/Menu_Inicial/Menu_Inicial.yy",},},
     {"roomId":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
-    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
