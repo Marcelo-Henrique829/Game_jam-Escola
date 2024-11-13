@@ -9,8 +9,8 @@
   "name":"Obj_iluminacao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Iluminação",
+    "path":"folders/Objects/Iluminação.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -122,3 +122,27 @@ switch(state)
 	}
 	break;
 }
+
+#region Chaves
+if place_meeting(x,y,obj_chave1){ //se encostar pega e some
+
+	global.chave_1 = 1;
+	instance_destroy(obj_chave1)
+}
+
+
+if place_meeting(x,y,obj_chave2){ //se encostar pega e some
+
+	global.chave_2 = 1;
+	instance_destroy(obj_chave2)
+}
+
+
+
+if place_meeting(x,y,obj_chave3){ //se encostar pega e some
+
+	global.chave_3 = 1;
+	instance_destroy(obj_chave3)
+}
+
+#endregion

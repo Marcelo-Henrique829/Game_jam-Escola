@@ -91,4 +91,10 @@ troca_arma = function()
 	}
 }
 
+#region Chaves
+global.chave_1 = 0;
+global.chave_2 = 0;
+global.chave_3 = 0;
+#endregion
 
+global.luz = 0;

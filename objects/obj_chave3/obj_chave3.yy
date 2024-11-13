@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_luz",
+  "%Name":"obj_chave3",
   "eventList":[],
   "managed":true,
-  "name":"Obj_luz",
+  "name":"obj_chave3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Iluminação",
-    "path":"folders/Objects/Iluminação.yy",
+    "name":"Chaves",
+    "path":"folders/Objects/Chaves.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_chave3",
+    "path":"sprites/Spr_chave3/Spr_chave3.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
