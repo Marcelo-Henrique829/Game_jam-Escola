@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_chave3",
-    "path":"sprites/Spr_chave3/Spr_chave3.yy",
+    "name":"spr_chave_azul",
+    "path":"sprites/spr_chave_azul/spr_chave_azul.yy",
   },
   "spriteMaskId":null,
   "visible":true,
