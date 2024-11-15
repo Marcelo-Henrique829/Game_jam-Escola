@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"Game_jam_Escola",
+  "%Name":"game_jam_escola",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -45,9 +45,9 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
-  "name":"Game_jam_Escola",
+  "name":"game_jam_escola",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_arma_2","path":"objects/obj_arma_2/obj_arma_2.yy",},},
@@ -75,6 +75,7 @@
     {"id":{"name":"Menu_Inicial","path":"rooms/Menu_Inicial/Menu_Inicial.yy",},},
     {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
     {"id":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
+    {"id":{"name":"rm_corredor","path":"rooms/rm_corredor/rm_corredor.yy",},},
     {"id":{"name":"animacao","path":"scripts/animacao/animacao.yy",},},
     {"id":{"name":"armas","path":"scripts/armas/armas.yy",},},
     {"id":{"name":"boss","path":"scripts/boss/boss.yy",},},
@@ -124,8 +125,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
+    {"roomId":{"name":"rm_corredor","path":"rooms/rm_corredor/rm_corredor.yy",},},
     {"roomId":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
+    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
     {"roomId":{"name":"Menu_Inicial","path":"rooms/Menu_Inicial/Menu_Inicial.yy",},},
   ],
   "templateType":"game",

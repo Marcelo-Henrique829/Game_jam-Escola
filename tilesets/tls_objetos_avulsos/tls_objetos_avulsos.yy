@@ -5,7 +5,10 @@
   "macroPageTiles":{
     "SerialiseHeight":46,
     "SerialiseWidth":39,
-    "TileCompressedData":[-1794,0,],
+    "TileCompressedData":[
+      -1794,
+      0,
+    ],
     "TileDataFormat":1,
   },
   "name":"tls_objetos_avulsos",

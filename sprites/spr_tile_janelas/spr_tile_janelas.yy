@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_tile_janelas",
   "bboxMode":0,
-  "bbox_bottom":155,
+  "bbox_bottom":150,
   "bbox_left":0,
-  "bbox_right":279,
+  "bbox_right":284,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,8 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"3ca4dfad-c6ab-4018-af01-2610fedc0f2d","name":"3ca4dfad-c6ab-4018-af01-2610fedc0f2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":20,
-  "gridY":20,
+  "gridX":19,
+  "gridY":19,
   "height":208,
   "HTile":false,
   "layers":[
