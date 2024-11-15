@@ -15,7 +15,8 @@ if(usando)
 
 	if(mouse_check_button_pressed(mb_left) and can_shoot)
 	{
-		instance_create_layer(x,y,"Bullet",obj_bullet)
+		var _ataque =instance_create_layer(x,y,"Bullet",obj_bullet)
+		_ataque.speed = 40;
 		can_shoot=false
 		alarm[0]=bullet_cooldown
 	}

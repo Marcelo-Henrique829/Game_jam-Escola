@@ -38,6 +38,9 @@
     "name":"spr_player_frente_iddlle",
     "path":"sprites/spr_player_frente_iddlle/spr_player_frente_iddlle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_player_colisao",
+    "path":"sprites/spr_player_colisao/spr_player_colisao.yy",
+  },
   "visible":true,
 }

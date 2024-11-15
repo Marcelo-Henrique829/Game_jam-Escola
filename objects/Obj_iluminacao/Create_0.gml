@@ -1,0 +1,1 @@
+sombra_surface = surface_create(room_width,room_height); //cria uma camada por cima da camada principal 

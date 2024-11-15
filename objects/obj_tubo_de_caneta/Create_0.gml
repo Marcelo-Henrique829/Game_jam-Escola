@@ -5,5 +5,5 @@ bullet_cooldown = 20 //tempo de espera entre um tiro e outro
 can_shoot = true
 usando = true 
 
-image_xscale = 1;
-image_yscale = 1;
+image_xscale = 1.5;
+image_yscale = 1.5;

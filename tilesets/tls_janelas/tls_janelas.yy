@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tls_janelas",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":18,
+    "SerialiseWidth":16,
+    "TileCompressedData":[
+      -69,0,2,58,59,-14,0,5,77,78,79,80,81,-73,0,4,46,47,48,49,-12,0,4,61,62,63,64,-28,0,4,51,52,53,54,-12,
+      0,4,66,67,68,69,-6,0,3,71,0,73,-13,0,3,86,0,88,-3,0,13,91,92,93,94,0,96,97,98,99,0,101,0,103,-3,0,13,
+      106,107,108,109,0,111,112,113,114,0,116,0,118,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"tls_janelas",
+  "out_columns":13,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tile_janelas",
+    "path":"sprites/spr_tile_janelas/spr_tile_janelas.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":19,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":19,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":160,
+}
