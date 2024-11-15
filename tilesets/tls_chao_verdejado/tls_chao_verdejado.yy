@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tls_parede_roubada",
+  "%Name":"tls_chao_verdejado",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tls_parede_roubada",
-  "out_columns":32,
+  "name":"tls_chao_verdejado",
+  "out_columns":37,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"tiles_roubados",
-    "path":"folders/Tile Sets/tiles_roubados.yy",
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_parede_roubada",
-    "path":"sprites/spr_parede_roubada/spr_parede_roubada.yy",
+    "name":"spr_tile_chao_verdejado",
+    "path":"sprites/spr_tile_chao_verdejado/spr_tile_chao_verdejado.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":1024,
+  "tile_count":1369,
 }
