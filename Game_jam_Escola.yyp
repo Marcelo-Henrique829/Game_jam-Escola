@@ -77,6 +77,7 @@
     {"id":{"name":"rm_corredor","path":"rooms/rm_corredor/rm_corredor.yy",},},
     {"id":{"name":"rm_sala_boss","path":"rooms/rm_sala_boss/rm_sala_boss.yy",},},
     {"id":{"name":"rm_sala_teste","path":"rooms/rm_sala_teste/rm_sala_teste.yy",},},
+    {"id":{"name":"rm_saladomaicon","path":"rooms/rm_saladomaicon/rm_saladomaicon.yy",},},
     {"id":{"name":"animacao","path":"scripts/animacao/animacao.yy",},},
     {"id":{"name":"armas","path":"scripts/armas/armas.yy",},},
     {"id":{"name":"boss","path":"scripts/boss/boss.yy",},},
@@ -135,6 +136,7 @@
     {"roomId":{"name":"rm_sala_boss","path":"rooms/rm_sala_boss/rm_sala_boss.yy",},},
     {"roomId":{"name":"rm_sala_teste","path":"rooms/rm_sala_teste/rm_sala_teste.yy",},},
     {"roomId":{"name":"Menu_Inicial","path":"rooms/Menu_Inicial/Menu_Inicial.yy",},},
+    {"roomId":{"name":"rm_saladomaicon","path":"rooms/rm_saladomaicon/rm_saladomaicon.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
