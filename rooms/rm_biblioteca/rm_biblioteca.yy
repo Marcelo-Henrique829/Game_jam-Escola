@@ -88,7 +88,7 @@
           335,336,337,338,339,-80,-2147483648,10,361,362,363,364,365,366,367,368,369,370,-80,-2147483648,10,392,
           393,394,395,396,397,398,399,400,401,-80,-2147483648,10,423,424,425,426,427,428,429,430,431,432,-426,
           -2147483648,-2,0,-88,-2147483648,-2,0,-2372,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tls_objetos_avulsos","path":"tilesets/tls_objetos_avulsos/tls_objetos_avulsos.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tls_objetos_avulsos","path":"tilesets/tls_objetos_avulsos/tls_objetos_avulsos.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"tls_objetos","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tls_objetos","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":90,"TileCompressedData":[
           -281,-2147483648,-2,0,48,652,653,654,655,656,657,0,652,653,654,655,656,657,0,652,653,654,655,656,657,
           0,652,653,654,655,656,657,0,652,653,654,655,656,657,-2147483648,652,653,654,655,656,657,-2147483648,
