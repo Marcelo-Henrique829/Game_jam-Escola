@@ -2,6 +2,12 @@
 // You can write your code in this editor
 
 
+if(room == rm_corredor)
+{
+	x = global.player_x
+	y = global.player_y
+}
+
 #region variáveis de movimento
 
 hspd = 0;//velocidade horizontal

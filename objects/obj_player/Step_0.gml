@@ -17,6 +17,8 @@ if(instance_exists(obj_lapis)) //ele só usa a arma se a arma existir
 }
 
 
+show_debug_message(spd)
+
 switch(state)
 {
 	case "movendo":
@@ -39,6 +41,7 @@ switch(state)
 		if(_left !=0 or _rigth !=0 or _up !=0 or _down !=0)//verficando se ele está apertando alguma se sim o sistema deixa ele andar se não ele fica parado
 		{
 			spd = max_spd
+			
 			direcao = point_direction(0,0,(_rigth - _left),(_down - _up)) //descobrindo a direção em que o jogador está apertando	
 		}
 		else
