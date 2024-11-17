@@ -162,9 +162,9 @@
     {"roomId":{"name":"rm_diretor","path":"rooms/rm_diretor/rm_diretor.yy",},},
     {"roomId":{"name":"rm_sala_teste","path":"rooms/rm_sala_teste/rm_sala_teste.yy",},},
     {"roomId":{"name":"rm_saladomaicon","path":"rooms/rm_saladomaicon/rm_saladomaicon.yy",},},
-    {"roomId":{"name":"rm_biblioteca","path":"rooms/rm_biblioteca/rm_biblioteca.yy",},},
-    {"roomId":{"name":"rm_alet3","path":"rooms/rm_alet3/rm_alet3.yy",},},
     {"roomId":{"name":"rm_refeitorio","path":"rooms/rm_refeitorio/rm_refeitorio.yy",},},
+    {"roomId":{"name":"rm_alet3","path":"rooms/rm_alet3/rm_alet3.yy",},},
+    {"roomId":{"name":"rm_biblioteca","path":"rooms/rm_biblioteca/rm_biblioteca.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
