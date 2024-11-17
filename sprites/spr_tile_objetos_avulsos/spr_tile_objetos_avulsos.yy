@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_tile_objetos_avulsos",
   "bboxMode":0,
-  "bbox_bottom":479,
+  "bbox_bottom":484,
   "bbox_left":0,
   "bbox_right":494,
   "bbox_top":0,
