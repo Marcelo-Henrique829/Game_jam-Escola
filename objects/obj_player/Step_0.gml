@@ -149,3 +149,5 @@ if place_meeting(x,y,obj_chave3){ //se encostar pega e some
 }
 
 #endregion
+
+show_debug_message(global.player_y)

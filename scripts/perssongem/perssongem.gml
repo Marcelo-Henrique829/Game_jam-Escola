@@ -4,3 +4,4 @@
 
 global.player_x = 91;
 global.player_y = 660;
+global.player_y_recool = 50

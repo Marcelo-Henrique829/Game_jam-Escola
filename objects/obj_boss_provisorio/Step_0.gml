@@ -41,7 +41,7 @@ switch(state)
 	case "movendo":
 		{
 	
-			sprite_index = spr_mcaco
+			sprite_index = spr_boss_direito
 	
 			if(distancia>= 200)
 			{
@@ -113,7 +113,7 @@ switch(state)
 	
 	case "segunda_fase":
 	{
-		sprite_index = spr_mcaco
+		sprite_index = spr_boss_esquerdo
 		
 		hspd = 0;
 		vspd = 0;

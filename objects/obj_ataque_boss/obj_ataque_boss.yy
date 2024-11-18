@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ataque_3",
-    "path":"sprites/spr_ataque_3/spr_ataque_3.yy",
+    "name":"spr_boss_ataque",
+    "path":"sprites/spr_boss_ataque/spr_boss_ataque.yy",
   },
   "spriteMaskId":null,
   "visible":true,

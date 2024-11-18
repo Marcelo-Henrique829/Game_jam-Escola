@@ -21,7 +21,16 @@ function scr_anim()
 		break;
 		
 		case 90:
-			sprite_index = spr_player_iddle_cima
+			
+			if(vspd==0)
+			{
+				sprite_index = spr_player_iddle_cima
+			}
+			else
+			{
+				sprite_index = spr_player_run_costas
+			}
+			
 		break;
 		
 		case 180:
@@ -37,7 +46,14 @@ function scr_anim()
 		case 270:
 			
 			
-			sprite_index = spr_player_frente_iddlle
+			if(vspd==0)
+			{
+				sprite_index = spr_player_frente_iddlle
+			}
+			else
+			{
+				sprite_index = spr_player_run_frente
+			}
 			
 		break;
 	}

@@ -27,8 +27,8 @@
 arma = 0;
 
 
-image_xscale = 2; //tamanho do bixo
-image_yscale = 2; //tamanho do bixo
+image_xscale = 1; //tamanho do bixo
+image_yscale = 1; //tamanho do bixo
 
 usando_arma_1 = function()
 {

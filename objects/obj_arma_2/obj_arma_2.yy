@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_arma_improviso",
-    "path":"sprites/spr_arma_improviso/spr_arma_improviso.yy",
+    "name":"spr_doze",
+    "path":"sprites/spr_doze/spr_doze.yy",
   },
   "spriteMaskId":null,
   "visible":true,

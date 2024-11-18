@@ -6,12 +6,15 @@ if(!instance_exists(obj_boss_provisorio)) exit
 var _player_direction = point_direction(x,y,obj_player.x,obj_player.y)
 var _distancia = point_distance(x,y,obj_player.x,obj_player.y)
 
-//if(!instance_exists(obj_boss_provisorio))
-//{
-//		instance_destroy()
+if(_player_direction>=90 and _player_direction<= 270)
+{
+	image_yscale = -1
+}
+else
+{
+	image_yscale = 1
 
-//}
-
+}
 image_angle = lerp(image_angle,_player_direction,0.08)
 
 if(pode_meter_chumbo == true and _distancia >=200)

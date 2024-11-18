@@ -20,7 +20,7 @@ for(var i=0; i < op_max; i++){
 	
 	// if para checar se a opção do vetor que esta sendo analisada e escrita esta selecionada 
 	if (index == i) or (point_in_rectangle(mx,my, x1 - dist/2 , y1 - dist/2 + dist*i, x1 + dist/2 , y1 + dist/2 + dist*i)){
-		draw_set_color(c_yellow); //troca a cor da opção selecionada
+		draw_set_color(c_aqua); //troca a cor da opção selecionada
 		esc[i] = lerp(esc[i],1.4,0.15); // aumenta o tamanho do texto quando selecionado
 		rot = lerp(rot,15,0.15); // adiciona a rotação do texto quando selecionado
 		

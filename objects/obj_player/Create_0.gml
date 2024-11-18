@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 
+scr_trasicao()
+
 if(room == rm_corredor)
 {
 	x = global.player_x

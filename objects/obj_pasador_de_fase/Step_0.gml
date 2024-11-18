@@ -3,11 +3,11 @@
 
 	
 
-	
-
 if(pode_passar)
 {
 	
+		
+
 		var _cx = camera_get_view_x(view_camera[0])
 		var _cy = camera_get_view_y(view_camera[0])
 		var _transicao = layer_sequence_create("transicao",_cx,_cy,sq_indo)

@@ -3,3 +3,4 @@
 
 
 pode_passar = true
+global.player_y_recool = cima
