@@ -1,5 +1,5 @@
 {
-  "$GMSequence":"",
+  "$GMSequence":"v1",
   "%Name":"sq_indo_tela_inicio",
   "autoRecord":true,
   "backdropHeight":768,
